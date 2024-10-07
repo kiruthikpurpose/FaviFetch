@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "FaviFetch",
+    "version": "1.0",
+    "description": "Download the favicon of the current website",
+    "permissions": [
+      "activeTab"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
