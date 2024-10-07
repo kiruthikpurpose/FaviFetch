@@ -1,4 +1,5 @@
-document.getElementById('downloadBtn').addEventListener('click', function() {
+document.getElementById('downloadBtn').addEventListener('click', function(e) {
+    e.preventDefault();
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
       const tab = tabs[0];
       const url = new URL(tab.url);
