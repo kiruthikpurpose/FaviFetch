@@ -2,7 +2,9 @@
 
 FaviFetch is a simple and stylish browser extension that allows users to download the favicon of the current website they're visiting with just one click.
 
-![FaviFetch Logo](icon.png)
+<p align="center">
+  <img src="icon.png" alt="FaviFetch Logo" width="190" height="190">
+</p>
 
 ## Features
 
